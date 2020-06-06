@@ -5,3 +5,8 @@
     height :100%;
     width :100%;
 }
+.clearfix:after{
+    clear:both;
+    display:block;
+    content :"";
+}
