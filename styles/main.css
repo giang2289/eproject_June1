@@ -14,11 +14,21 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.txt28{
+    font-size :32px;
+    font-weight :600;
+}
 .txt21{
     font-size :21px;
     font-weight :400;
+}
+.txt20{
+    font-size :21px;
+    font-weight :400;
+    color : #ff6633;
 }
 .txt16{
     font-size :16px;
     font-weight :400;
 }
+.m-r-10{margin-right: 10px;}

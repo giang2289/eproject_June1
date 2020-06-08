@@ -46,7 +46,7 @@ var mapConfig = {
     marker.on('click', function(evt) {
       var id = L.Util.stamp(evt.target);
       if (document.getElementById(id) != null) return; 
-      var sidebarElement, infoPart, removePart;
+      var sidebarElement, infoPart ;
       sidebarElement = L.DomUtil.create('div', 'sidebarElement', document.getElementById('sidebar'));
       sidebarElement.id = id;
       infoPart = L.DomUtil.create('div', 'infoSidebarElement', sidebarElement);
@@ -57,7 +57,7 @@ var mapConfig = {
         map.panTo(marker.getLatLng());
         
       }, sidebarElement);
-      removePart = L.DomUtil.create('div', 'removeSidebarElement', sidebarElement);
+     
      
       
     });

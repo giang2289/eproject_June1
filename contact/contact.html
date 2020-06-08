@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="../styles/contact.css">
   <link rel="stylesheet" type="text/css" href="../styles/main.css">
   <link rel="stylesheet" type="text/css" href="../plugins/leaflet/leaflet.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
  
     <title>Document</title>
 </head>
@@ -24,28 +25,52 @@
     <!-- End Menu -->
 
     <!-- contact page  is here  -->
-    <h2>a</h2>
-        <!-- Contact map content -->
-    <div class="vA-container">
+  
+     <!-- Section map -->
+    <section>
+      <div class="vA-container">
         <!-- Contact map row -->
-         <div class= "row "  style ="position: relative;overflow :  hidden ; ">
+         <div class= "row " >
                 <!-- Contact map left col -->
-            <div class="ct_mapSidebar" style ="z-index: 1002;width: 300px;background-color:white;">
-
+            <div class="ct_mapSidebar col-lg-4 col-sm-12" >
                <div >
-                  <p class = "txt21">Công ty TNHH Pizza Việt Nam</p>
-                <p class="txt16">  Để đặt bánh pizza vui lòng liên hệ tổng đài 0123456789</p>
-                <p class="txt16">  Để phản ánh chất lượng dịch vụ, vui lòng gọi số: 0989.139.565</p>
-               </div>
-               
-                <div id="sidebar"></div>
+                  <p class = "txt28">Contact</p>                       
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td > <i class="fas fa-phone m-r-10"></i></td>
+                        <td>  0989.139.565</td>
+                      </tr>
+                      <tr>                       
+                        <td> <i class="fas fa-envelope txt20"></i> </td>                     
+                        <td> <a class ="txt20" href="mailto:ngovietanh2000@gmail.com?subject=SweetWords &body=Please send me a copy of your new program!">ngovietanh2000@gmail.com </a></td>
+                       </tr>
+                       <tr>
+                         
+                         <td colspan="2">Click to the marker to show details</td>
+                       </tr>
+                    </tbody>
+                                 
+                  </table>                     
+               </div> 
+               <!-- Sidebar contain Contact details  with content after click marker       -->
+                <div id="sidebar">
+
+                </div>
+                  <!-- End sidebar contain Contact details         -->
             </div>
-            <div id="map" style ="position :absolute ;top:1px;left: 0px;z-index: 1;overflow:hidden">s</div>
-            <!-- Contact map right col -->
-           
-         </div>
-    </div>
-          <div class="clearfix"></div>
+               <!--End contact map left col -->
+
+                <!--Contact map right col -->
+            <div id="map" style ="position :relative ;left: 0px;z-index: 1; height:30rem;" class="col-lg-8 col-sm-12">
+            </div>
+      
+            <!-- End Contact map right col -->         
+          </div>
+      </div>
+    </section>
+     <!-- End Section map -->
+          
           <!-- Footer -->
     <footer>đây là footer</footer>
           <!-- End footer -->
