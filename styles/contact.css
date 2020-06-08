@@ -10,3 +10,17 @@
     display:block;
     content :"";
 }
+
+    .sidebarElement {
+      padding: 6px;
+      display: table;
+      width: 95%;
+    }
+    .infoSidebarElement {
+      display: table-cell;
+      cursor: pointer;
+      width: 90%;
+    }
+    .ct_mapSidebar{
+      min-height: 30rem;
+    }
