@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../plugins/bootstrap4/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
     <link rel="stylesheet" type="text/css" href="../styles/index.css">
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
     <link rel="stylesheet" type="text/css" href="../index/index.css">
-    
+    <link rel="stylesheet" type="text/css" href="../plugins/leaflet/leaflet.css">
+   
     <link rel="stylesheet" href="../plugins/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
     
 
@@ -99,7 +101,7 @@
                 </a>
               </div>
         </div>
-        <!-- Welcome -->
+        <!--  Section Welcome -->
 	<section class="section-welcome">
 		<div class="welcome">
 			<div class="container">
@@ -116,14 +118,15 @@
 							</a>
 					</div>
 					<div class="col-md-6">
-						<div class="zoom">
-							<img class="img-fluid " src="../images/our-story-01.jpg" alt="IMG-OUR">
+						<div class="home-img">
+							<img class="img-fluid " src="../images/pizza4.jpg" alt="IMG-OUR">
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+  </section>
+  <!-- End section Wellcome -->
         <div class=" header-lunch lunch ">
           <section class="lunch-title-page " >
             <h2 class="tit6a title-lunch" >Lunch</h2>
@@ -134,6 +137,9 @@
         <div class="container-fluid">
           <div class="lunch-menu">
             <div class="meal-menu container">
+              <div class="text-align">
+                <h3 style ="margin-bottom:20px">Menu</h3>
+              </div>
               <div class="row">
                 <div class="col-lg-6">						
                   <div class="meal-items">
@@ -218,8 +224,113 @@
             </div>
           </div>
         </div>
+        <!-- End menu -->
+        <section>
+          <div class="vA-container m-t-10">
+            <!-- Contact map row -->
+             <div class= "row " >
+                    <!-- Contact map left col -->
+                <div class="ct_mapSidebar col-lg-4 col-sm-12" >
+                   <div >
+                      <p class = "txt28">Contact</p>                       
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td > <i class="fas fa-phone m-r-10"></i></td>
+                            <td>  0989.139.565</td>
+                          </tr>
+                          <tr>                       
+                            <td> <i class="fas fa-envelope txt20"></i> </td>                     
+                            <td> <a class ="txt20" href="mailto:ngovietanh2000@gmail.com?subject=SweetWords &body=Please send me a copy of your new program!">ngovietanh2000@gmail.com </a></td>
+                           </tr>
+                           <tr>
+                             
+                             <td colspan="2">Click to the marker to show details</td>
+                           </tr>
+                        </tbody>
+                                     
+                      </table>                     
+                   </div> 
+                   <!-- Sidebar contain Contact details  with content after click marker       -->
+                    <div id="sidebar">
+    
+                    </div>
+                      <!-- End sidebar contain Contact details         -->
+                </div>
+                   <!--End contact map left col -->
+    
+                    <!--Contact map right col -->
+                <div id="map" style ="position :relative ;left: 0px;z-index: 1; height:10rem;margin-bottom:300px" class="col-lg-8 col-sm-12">
+                </div>
+          
+                <!-- End Contact map right col -->         
+              </div>
+          </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container-fluid footer-wrap">
+        <div class="row">
+             <div class="footer-content ">
+                <div class="text-align">
+                    <img src="../images/footer_logo.png" alt="" class="img-fluid">
+                    <h3>CÔNG TY TNHH PIZZA EXPRESS VIỆT NAM</h3>
+                        <p class="text-align">Để đặt bánh pizza, vui lòng liên hệ tổng đài số: 024.36.888.777</p>
+                    
+                        <p class="text-align">Để phản ánh chất lượng dịch vụ, vui lòng gọi số: 0989.139.565</p>
+                    
+                        <p class="text-align">Email: Ngovietanh2000@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           
+            <div class="col-md-4 footer-item">
+                <div class="text-align">
+                    <img src="../images/so_01.png" alt="" class="img-fluid"  style="max-width: 50px;">
+                     <p>238 Hoàng Quốc Việt, Cổ Nhuế, Từ Liêm</p>
+                <a href="https://www.google.com/maps?saddr=Current+Location&daddr=21.0463433,105.7833681" title="Xem trên bản đồ" >
+                    <i class="fa fa-location-arrow"></i>
+                    Xem trên bản đồ
+                </a>
+                </div>
+               
+            </div>
+            <div class="col-md-4 footer-item">
+               <div class="text-align">
+                    <img src="../images/so_02.png" alt="" class="img-fluid" style="max-width: 50px;">
+                   <p>THPT Lý Thái Tổ Từ Sơn Bắc Ninh</p>
+                   <a href="https://www.google.com/maps?saddr=Current+Location&daddr=21.1103785,105.9463062" title="Xem trên bản đồ" >
+                       <i class="fas fa-location-arrow"></i>
+                       Xem trên bản đồ
+                   </a>
+               </div>
+            </div>
+            <div class="col-md-4 footer-item">
+                <div class="text-align">
+                    <img src="../images/so_03.png" alt="" class="img-fluid"  style="max-width: 50px;">
+                    <p>Hồ Hoàn Kiếm Ba Đình Hà Nội</p>
+                    <a href="https://www.google.com/maps?saddr=Current+Location&daddr=21.0291512,105.8512106" title="Xem trên bản đồ" >
+                        <i class="fa fa-location-arrow"></i>
+                        Xem trên bản đồ
+                    </a>
+                </div>
+            </div>
+           
+        </div>
+         <div class="row">
+                <div class="footer-en">
+                    <div class="text-align">
+                        <img src="../images/thongbao.png" alt="" class="img-fluid">
+                        <p style="text-align: center;color: #aaa">Công ty TNHH Pizza Express Việt Nam Số ĐKKD: 0106675108</p>
+                        <p style="text-align: center;color: #aaa">Địa Chỉ: 238 Đường Hoàng Quốc Việt, Từ Liêm, TP.Hà Nội</p>
+                        <p style="text-align: center;color: #aaa">Số điện thoại: 02436888777</p>
+                        <p style="text-align: center;color: #aaa">Email: Ngovietanh2000@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </footer>
     <!-- <script src="../plugins/OwlCarousel2-2.2.1/owl.carousel.js "></script> -->
     <script>
         window.onscroll = function() {myFunction()};
@@ -239,6 +350,7 @@
     <script src="../plugins/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
     <script   type="text/javascript" src = "../plugins/bootstrap4/popper.js"></script>
     <script   type="text/javascript" src = "../plugins/bootstrap4/bootstrap.min.js"></script>
+    <script type="text/javascript"  src="../plugins/leaflet/leaflet.js"></script>
     <script   type="text/javascript"src = "../js/index.js"></script>
 
 </body>

@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins';
+    font-family: 'Poppins','Courgete';
 }
 
     .header_top{
@@ -260,8 +260,24 @@ img{width: 100%;}
 .tit2{
     font-family: Courgette;
     font-size: 30px;
-    line-height: 1.2;
+	line-height: 1.2;
+	font-weight: 600;
     color: #d61c22;
+}
+.home-text-tit2 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+}
+.section-welcome{
+ padding-top:20px;
+ padding-bottom:20px;
+}
+.home-img {
+    overflow: hidden;
+    display: block;
+    max-width: 320px;
+    border-radius: 10px;
 }
 .t-center{
 	display: flex;
