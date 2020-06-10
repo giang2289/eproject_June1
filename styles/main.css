@@ -6,7 +6,41 @@
 body {
     font-family :"Montserrat",sans-serif;
 }
+body{
+    font-family: 'Poppins','Courgete';
+}
+/* header */
+    .header_top{
+        display: flex;
+        align-items: center;
+        height: 11vh;
+        background: red ;
+       
+    }
+   
+    .header_top .header_logo img{
+        background: rgb(255, 0, 0);
+    }
+    .header_top .header_text{
+       flex: 1;
+       justify-content: flex-end ;
+       flex-basis: 100% ;
+       display: flex    ;
+       color: white;
+       align-items: center  ;
+       padding-top: 15px;
+       padding-right: 15px;
+    }
+/* menu */
 
+.menu-fixed{
+   
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 20;
+    background-color: red;
+    }
 .vA-container{
     width:100%;
     max-width: 1170px;

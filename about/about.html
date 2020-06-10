@@ -10,9 +10,59 @@
 </head>
 <body>
         <!-- Header is here -->
-   <header><h1 class ="text-center">header</h1></header>
+   <header> <div class="header_top">
+    <div class="header_logo">
+        <img src="../images/logo.png" alt="">
+    </div>
+    <div class="header_text">
+        <p>Pizza ngon - Giá rẻ - Vận chuyển tận nhà </p>
+    </div>
+</div></header>
    <!-- Menu is here -->
-    <nav><h1  class ="text-center " style ="margin-bottom:100px">menu</h1></nav>
+   <menu class="menu" id="Menu-index">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menu-flix">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Pizza</a>
+                <a class="dropdown-item" href="#">Garlic Breads</a>
+                <a class="dropdown-item" href="#">Pizza Sandwiches</a>
+                <a class="dropdown-item" href="#">Desserts</a>
+                <a class="dropdown-item" href="#">Beverages</a>
+             </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Menu Download <span class="sr-only">(current)</span></a>
+            </li>  
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Store Location</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link " href="#">Feedback</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link " href="#">Franchise Info</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+</menu>
     <!-- contact page  is here  -->
     
         <!-- Contact map content -->
@@ -180,6 +230,20 @@
                 </div>
         </div>
        </footer>
+       <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("Menu-index");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("menu-fixed");
+          } else {
+            header.classList.remove("menu-fixed");
+          }
+        }
+        </script>
    
     <script  type="text/javascript" src="../plugins/bootstrap4/jquery-3.3.1.min.js"></script>
     <script   type="text/javascript" src = "../plugins/bootstrap4/popper.js"></script>
