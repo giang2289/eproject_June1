@@ -12,7 +12,7 @@ var mapObj = null;
 var defaultCoord = [21.0227788, 105.8194541]; // default position, Ha Noi city center
 var zoomLevel = 12;
 var mapConfig = {
-    attributionControl: false, // để ko hiện watermark nữa
+    attributionControl: false, // not show watermark
     center: defaultCoord, // vị trí map mặc định hiện tại
     zoom: zoomLevel, // level zoom
 };

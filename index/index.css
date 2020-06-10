@@ -60,11 +60,7 @@
   src: url('../font/notosans/NotoSans-Regular.ttf'); 
 }
 
-* {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
-}
+
 
 body, html {
 	height: 100%;
@@ -667,10 +663,6 @@ a:hover, .main-menu >li >a:hover{
 }
 .p-r-15{padding-right: 15px;}
 .p-r-40{padding-right: 40px;}
- .footer-gallery-item{
-	padding: 5px;
-	display: block;
-} 
 
 
 
@@ -684,15 +676,3 @@ a:hover, .main-menu >li >a:hover{
 }
 
 /* button */
-.btn-sub{
-	background: #111111;	
-	border-radius: 9px;
-	color: white;
-	width: 120px;
-	height: 40px;
-	font-size: 10px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	outline: none;
-
-}
