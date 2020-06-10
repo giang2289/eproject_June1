@@ -361,19 +361,8 @@ a:hover, .main-menu >li >a:hover{
 	color: #ec1d25;
 }
 
-.bg1-pattern{
-	background-image: url('../../images/icons/pattern1.png');
-	background-repeat: repeat;
-	
-}
-.bg2-pattern{
-	background-image: url('../../images/icons/pattern2.png');
-		background-repeat: repeat;
-}
-.bg3-pattern{
-	background-image: url('../../images/icons/pattern3.png');
-	background-repeat: repeat;
-}
+
+
 /* Menu center *==============================================================*/
 /* .main-menu{
 	padding-bottom: 150px;

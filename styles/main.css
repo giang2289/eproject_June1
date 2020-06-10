@@ -9,6 +9,14 @@ body {
 body{
     font-family: 'Poppins','Courgete';
 }
+p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
 /* header */
     .header_top{
         display: flex;
@@ -155,4 +163,15 @@ body{
 .m-b-10{margin-bottom: 50px;}
 .footer-en{
     margin: 0 auto;
+}
+.bg1-pattern {
+    background-image: url('../images/pattern1.png');
+    background-repeat: repeat;
+}.bg2-pattern{
+	background-image: url('../images/pattern2.png');
+		background-repeat: repeat;
+}
+.bg3-pattern{
+	background-image: url('../images/pattern3.png');
+	background-repeat: repeat;
 }
