@@ -33,14 +33,11 @@ body {
 }
 .m-r-10{margin-right: 10px;}
 .test-1{
-    height: 400px;
+   
     padding-right: 20px;
     padding-left: 0px!important;
 }
-.test-2{
-/*  background-color: red; */
-    height: 200px;
-}
+
 .blog-item h3 a,.footer-item a{
     text-decoration: none;
     color: black;
@@ -98,7 +95,7 @@ margin-bottom: 5px; */
 body{
     font-family: Montserrat,sans-serif;
 }
-.clearfix::after {
+.clearfix:after {
   content: "";
   clear: both;
   display: block;
