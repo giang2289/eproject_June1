@@ -156,3 +156,14 @@ body{
 .footer-en{
     margin: 0 auto;
 }
+.bg1-pattern {
+    background-image: url('../images/pattern1.png');
+    background-repeat: repeat;
+}.bg2-pattern{
+	background-image: url('../images/pattern2.png');
+		background-repeat: repeat;
+}
+.bg3-pattern{
+	background-image: url('../images/pattern3.png');
+	background-repeat: repeat;
+}
