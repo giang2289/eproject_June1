@@ -50,6 +50,10 @@
   font-family: NotoSans-Regular;
   src: url('../font/notosans/NotoSans-Regular.ttf'); 
 }
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url('../font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf'); 
+  }
 body {
     font-family :"Montserrat",sans-serif;
 }
