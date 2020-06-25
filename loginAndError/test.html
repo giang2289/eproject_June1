@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="-" id="subs" class="btn btn-default pull-left" style="margin-right: 2%" />&nbsp;
+<input type="text" style="width: 410px;text-align: center; margin: 0px;" class="onlyNumber form-control pull-left" id="noOfRoom" value="" name="noOfRoom" />&nbsp;
+<input type="button" value="+" id="adds" class="btn btn-default" />
+
+<script  type="text/javascript" src="../plugins/bootstrap4/jquery-3.3.1.min.js"></script>
+<script>
+    $('#adds').click(function add() {
+    var $rooms = $("#noOfRoom");
+    var a = $rooms.val();
+    
+    a++;
+    $("#subs").prop("disabled", !a);
+    $rooms.val(a);
+});
+$("#subs").prop("disabled", !$("#noOfRoom").val());
+
+$('#subs').click(function subst() {
+    var $rooms = $("#noOfRoom");
+    var b = $rooms.val();
+    if (b >= 1) {
+        b--;
+        $rooms.val(b);
+    }
+    else {
+        $("#subs").prop("disabled", true);
+    }
+});
+
+</script>
+</body>
+</html>
