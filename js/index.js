@@ -76,5 +76,6 @@ var mapConfig = {
 
 
 
+// Slide price
 
-
+   
