@@ -86,12 +86,12 @@
     transition: color .2s ease-in-out; }
     .nav-dropdown .link.dropdown-toggle {
       margin-right: 2.583em; }
-      .nav-dropdown .link.dropdown-toggle::after {
+      /* .nav-dropdown .link.dropdown-toggle::after {
         margin-left: .25rem;
         border-top: 0.35em solid;
         border-right: 0.35em solid transparent;
         border-left: 0.35em solid transparent;
-        border-bottom: 0; }
+        border-bottom: 0; } */
       .nav-dropdown .link.dropdown-toggle[aria-expanded="true"] {
         margin: 0;
         padding: 0.667em 3.263em  0.667em 1.667em; }
