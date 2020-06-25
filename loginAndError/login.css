@@ -6,12 +6,29 @@ html{font-size: 62.5%;}
     padding :0;
 
 }
+@font-face{
+ font-family :PlayfairDisplay Black;
+ src: url(../font/Playfair_Display/static/PlayfairDisplay-Black.ttf);
+}
+@font-face{
+    font-family :PlayfairDisplay BlackItalic;
+    src: url(../font/Playfair_Display/static/PlayfairDisplay-BlackItalic.ttf);
+   }
+   @font-face{
+    font-family :Open-Sans Bold;
+    src: url(../font/Open_Sans/OpenSans-Bold.ttf);
+   }
 .container-2020{
     width: 1180px;
     max-width: 100%;
     padding :0 10px;
     margin:0 auto;
 
+}.container-2020-1{
+    width: 1180px;
+     min-width:1180px;
+    padding :0 10px;
+    margin:0 auto;
 }
 div {padding:0;}
 h1{margin :0;}
@@ -119,7 +136,7 @@ h1{margin :0;}
     font-weight :550;
 }
 .txt22{
-    font-family :PlayfairDisplay;
+    font-family :PlayfairDisplay Black;
     font-size:2.7rem;
     color:#242424;
     font-weight :800;
@@ -136,7 +153,7 @@ h1{margin :0;}
     color:#242424;
 }
 .txtSan30{
-    font-family:Open-Sans;
+    font-family:Open-Sans Bold;
     font-size:1.9rem;
     font-weight:800;
     color:#242424;
@@ -465,6 +482,7 @@ a:hover{
     }
     .showProduct-right{ 
         margin-left: 290px;
+        width: calc(100% - 280px);
     }
     .product-ip-search { 
         position:relative;
@@ -595,4 +613,18 @@ a:hover{
         height:100%;
     }
     /* End Filter Price */
+    .showProduct-content-top-selected{
+        width:16rem;
+        padding:0.7rem;
+    }
+  
+    select {
+        background: transparent;
+        position: relative;
+    }
+  
+     .showProduct-content-top-selected:focus{
+        border:none;
+    }
     /* End Product content Css */
+  
