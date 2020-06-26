@@ -23,12 +23,16 @@
     src: url(../font/Open_Sans/OpenSans-Regular.ttf);
    }
    @font-face{
-    font-family :Open-Sans ;
+    font-family :Open-Sans-Regular;
     src: url(../font/Open_Sans/OpenSans-Regular.ttf);
+   }
+      @font-face{
+    font-family :Open-Sans Italic;
+    src: url(../font/Open_Sans/OpenSans-Italic.ttf);
    }
 .container-2020{
     width: 1180px;
-    max-width: 100%;
+    max-width: 100%;r
     padding :0 10px;
     margin:0 auto;
 
@@ -141,6 +145,12 @@ h1{margin :0;}
     font-size:2.25rem;
     color:#242424;
 }
+.txt27{
+    font-family :PlayfairDisplay;
+    font-weight:700;
+    font-size:2rem;
+    color:white;
+}
 .txt26{
     font-family :PlayfairDisplay;
     font-weight:700;
@@ -232,6 +242,12 @@ h1{margin :0;}
     font-weight:400;
     color:#242424;
 }
+.txtSan17{
+    font-family:Open-Sans-Regular;
+    font-size:1.125rem;
+    font-weight:400;
+    color:white;
+}
 .clearfix:after{
     clear:both;
     display: block;
@@ -244,8 +260,17 @@ h1{margin :0;}
 .w-60{
     width:60%;
 }
-
-
+.w-30{
+    width:30%;
+}
+.w-70{
+    width:70%;
+}.w-10{
+    width:10%;
+}
+.w-20{
+    width:20%;
+}
 /* form-title */
 .form-title{
 /* font-size: 4rem; */
@@ -537,6 +562,10 @@ a:hover{
         border-bottom:1.5px solid #ebebeb;
       
     }
+    .line-bottom2{
+        border-bottom:0.1px solid rgba(204, 204, 204, 0.4);
+      
+    }
     .line-bottom:after{ 
         content:"";
         position: absolute;
@@ -581,19 +610,19 @@ a:hover{
     }
     
     .slider-range .ui-widget-header {
-      background: #fea116;
+      background: #c8aa7b;
     }
     
     .slider-range .ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
-      height: 8px;
-      border-color: #fea116;
+      line-height: 12px;
+      border-color: #c8aa7b;
     }
     
     .slider-range span.ui-slider-handle.ui-state-default.ui-corner-all {
-      border: 1px solid #fea116;
+      border: 1px solid #c8aa7b;
       top: -3px;
       border-radius: 50%;
-      background: #fea116;
+      background: #c8aa7b;
     }
     
     .slider-range span.ui-slider-handle.ui-state-default.ui-corner-all:focus,.price-ammount input:focus {
@@ -700,4 +729,42 @@ a:hover{
      
 
     /* End Product content Css */
+     /*Footer form css*/
+    .footer-form{
+    line-height: 20px;
+    }
+    .footer-form input,.footer-form button{
+        height:100%;
+    }
+
+    .footer-form input{
+        background-color: rgba(0, 0, 0, 0.3);
+        outline:none;
+        border:1px solid #cccc;
+    }
+    .footer-form input::placeholder{
+        color:rgba(204, 204, 204, 0.5);
+        font-family:OpenSans-Italic;
+        font-size:0.7rem;
+        font-weight:100;
+       
+
+    }
+     .footer-form input{
+        padding:0.8rem ;
+     }
+     .footer-form button{
+        color:white;
+        background-color: #c8aa7b;
+        outline:none;
+        padding: 0.8rem;
+        width:8rem;
+    
+        
+
+     }
+
+     /*Footer form css*/
+
+
   

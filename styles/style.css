@@ -512,6 +512,7 @@ section .mbr-background-video-preview {
 
 .media-container-row .media-size-item {
   width: 400px;
+  
 }
 
 .media-container-column {
@@ -550,6 +551,8 @@ figure[mbr-media-size] {
 .card {
   background-color: transparent;
   border: none;
+  max-height:520px;
+  overflow-y: hidden;
 }
 
 .card-box {
@@ -557,6 +560,7 @@ figure[mbr-media-size] {
 }
 
 .card-img {
+  height:300px;
   text-align: center;
   flex-shrink: 0;
   -webkit-flex-shrink: 0;
@@ -1070,6 +1074,7 @@ blockquote {
 
 .card-wrapper {
   -webkit-flex: 1;
+
 }
 
 .carousel-control {
