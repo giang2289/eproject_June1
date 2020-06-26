@@ -1,7 +1,7 @@
 *{box-sizing: border-box;}
-html{font-size: 62.5%;}
+/*html{font-size: 62.5%;}*/
 .login-container{
-    max-width:55rem;
+    max-width:34.3rem;
     margin:auto;
     padding :0;
 
@@ -43,17 +43,17 @@ h1{margin :0;}
 .wid-3{width:30%;}
 .wid-7{width:70%;}
 .mr-auto{margin: 0 auto;}
-.m-l-5{margin-left:0.5rem;}
-.m-l-12{margin-left:1.2rem;}
-.m-l-25{margin-left:2.5rem;}
-.m-r-12{margin-right:1.2rem;}
-.m-r-32{margin-right:3.2rem;}
-.m-t-10{margin-top:1rem;}
-.m-t-30{margin-top:3rem;}
-.m-b-10{margin-bottom:1.5rem; }
-.m-b-25{margin-bottom:2.5rem;}
-.m-b-45{margin-bottom:4.5rem;}
-.p-l-12{padding-left:1.2rem;}
+.m-l-5{margin-left:0.31rem;}
+.m-l-12{margin-left:0.75rem;}
+.m-l-25{margin-left:1.56rem;}
+.m-r-12{margin-right:0.75rem;}
+.m-r-32{margin-right:2rem;}
+.m-t-10{margin-top:0.625rem;}
+.m-t-30{margin-top:1.875rem;}
+.m-b-10{margin-bottom:0.93rem; }
+.m-b-25{margin-bottom:1.56rem;}
+.m-b-45{margin-bottom:2.81rem;}
+.p-l-12{padding-left:0.75rem;}
 .p-ud-5{padding:8px 0;}
 .img-full{
     max-width:100%;
@@ -67,7 +67,7 @@ h1{margin :0;}
     border-bottom:1px solid #ccc;
 }
 #formLogin input::placeholder,.input-coupon input::placeholder{
-    padding-left:0.5rem;
+    padding-left:0.31rem;
 }
 .form-login,.form-body-button{
     background-color: #c8aa7b;
@@ -117,20 +117,20 @@ h1{margin :0;}
 
 .txt32{
     font-family :PlayfairDisplay Black;
-    font-size:3.2rem;
+    font-size:2rem;
     color:#242424;
     font-weight :800;
 } 
 .txt31{
     font-family :PlayfairDisplay Black;
-    font-size:3.2rem;
+    font-size:2rem;
     color:#c8aa7b;
     font-weight :800;
 } 
 .txt30{
     font-family :PlayfairDisplay;
     line-height:80px; 
-    font-size:4.2rem;
+    font-size:2.62rem;
     font-weight: 800;
     color:#242424;
   
@@ -138,65 +138,65 @@ h1{margin :0;}
 .txt29{
     font-family :PlayfairDisplay;
     font-weight:800;
-    font-size:3.6rem;
+    font-size:2.25rem;
     color:#242424;
 }
 .txt26{
     font-family :PlayfairDisplay;
     font-weight:700;
-    font-size:4.2rem;
+    font-size:2.625rem;
     color:#242424;
 } 
 .txt25{
     font-family :PlayfairDisplay;
     font-weight:700;
-    font-size:4.2rem;
+    font-size:2.625rem;
     color:white;
 }
 .txt24{
-    font-size:2.7rem;
+    font-size:1.685rem;
     color:#242424;
     font-weight :550;
 }
 .txt22{
     font-family :PlayfairDisplay Black;
-    font-size:2.7rem;
+    font-size:1.685rem;
     color:#242424;
     font-weight :800;
 }
 .txt23{
     font-family :PlayfairDisplay;
-    font-size:2.7rem;
+    font-size:1.685rem;
     color:white;
     font-weight :550;
 }
 .txt16{
     font-family :PlayfairDisplay;
-    font-size:1.6rem;
+    font-size:1rem;
     color:#242424;
 }
 .txtSan30{
     font-family:Open-Sans Bold;
-    font-size:1.9rem;
+    font-size:1.187rem;
     font-weight:800;
     color:#242424;
 }
 .txtSan29{
     font-family:Open-Sans;
-    font-size:1.8rem;
+    font-size:1.125rem;
    font-weight:600;
     color:white;
 }
 .txtSan28{
     font-family:Open-Sans;
-    font-size:2.4rem;
+    font-size:1.5rem;
     font-weight:800;
     color:#242424;
 }
 
 .txtSan27{
     font-family:Open-Sans;
-    font-size:1.8rem;
+    font-size:1.125rem;
     font-weight:400;
     color:#242424;
 }
@@ -204,31 +204,31 @@ h1{margin :0;}
 
 .txtSan25{
     font-family:Open-Sans;
-    font-size:1.8rem;
+    font-size:1.125rem;
    font-weight:600;
     color:#c8aa7b;
 }
 .txtSan26{
     font-family:Open-Sans;
-    font-size:1.8rem;
+    font-size:1.125rem;
    
     color:#b4b4b4;
 }
 .txtSan24{
     font-family:Open-Sans;
-    font-size:1.8rem;
+    font-size:1.125rem;
    
     color:white;
 }
 .txtSan21{
     font-family:Open-Sans;
-    font-size:1.8rem;
+    font-size:1.125rem;
     font-weight: 600;
     color:white;
 }
 .txtSan18{
     font-family:Open-Sans Regular;
-    font-size:1.8rem;
+    font-size:1.125rem;
     font-weight:400;
     color:#242424;
 }
@@ -249,12 +249,12 @@ h1{margin :0;}
 /* form-title */
 .form-title{
 /* font-size: 4rem; */
-padding:2.5rem 0 2.5rem 0;
+padding:1.56rem 0 1.56rem 0;
 
 }
 /* form-body */
 .form-body{
-    padding: 3rem 0 3rem 0;
+    padding: 1.875rem 0 1.875rem 0;
     
     display :flex;
     flex-direction:column;
@@ -268,11 +268,11 @@ a:hover{
     list-style:none;
     color:#c8aa7b;
 }
-.m-b-10{margin-bottom:1.5rem; }
+.m-b-10{margin-bottom:0.93rem; }
 .error-text-404{
     font-family :PlayfairDisplay;
-    line-height:20rem;
-    font-size:20rem;
+    line-height:12.5rem;
+    font-size:12.5rem;
     font-weight: 600;
     color:#c8aa7b;
    
@@ -286,34 +286,34 @@ a:hover{
 .error-text-title{
     font-family :PlayfairDisplay;
     line-height:80px; 
-    font-size:4.2rem;
+    font-size:2.625rem;
     font-weight: 400;
     color:#242424;
   
 }
 .error-text{
     font-family :OpenSans;
-    font-size:2.6rem;
+    font-size:1.625rem;
 }
 
 .error-image{
-    width: 55rem;
-    height:34rem;
-    margin:1rem auto;
+    width: 34.3rem;
+    height:21.25rem;
+    margin:10.625rem auto;
 }
 
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 37.5em) {
  .error-text-title{
-     font-size:2.2rem;
+     font-size:1.375rem;
  }
  .error-text-404{
-    font-size:12rem;
+    font-size:7.5rem;
  }
  .error-text{
-    font-size:1.4rem;
+    font-size:0.875rem;
  }
  .error-image{ 
-    width: 30rem;
+    width: 18.75rem;
  }
  .container-2020{width:798px;}
 }
@@ -325,10 +325,10 @@ a:hover{
 /* Cart Hover Css */
 
 .cart-hover-container{
-    max-width:48rem;
+    max-width:30rem;
     margin :0 auto;
     display:flex;
-    padding:0 0.3rem;
+    padding:0 0.19rem;
 }
 .cart-hover-container ul{
     width:100%;
@@ -341,8 +341,8 @@ a:hover{
 }
 
 .cart-hv-img{
-    width:6rem;
-    height:6rem;
+    width:3.75rem;
+    height:3.75rem;
 }
 .cart-top{
     display :flex;
@@ -372,18 +372,18 @@ a:hover{
 .cart-sub{
     font-family :PlayfairDisplay;
     font-weight:800;
-    font-size:3.6rem;
+    font-size:2.25rem;
     color:#242424;
 }
 .hover-cart-total-price{
     font-family :PlayfairDisplay;
     font-weight:800;
-    font-size:3.6rem;
+    font-size:2.25rem;
     color:#c8aa7b;
 }
 .cart-image{
-    min-width:8rem;
-    height:12rem;
+    min-width:5rem;
+    height:7.5rem;
 }
 .cart-image img{
     height:90%;
@@ -393,7 +393,7 @@ a:hover{
 .p-mprice{
     text-decoration: line-through;
     font-family:Open-Sans;
-    font-size:1.8rem;
+    font-size:1.125rem;
    
     color:#b4b4b4;
 }
@@ -460,17 +460,17 @@ a:hover{
         width:60%;
     }
     .input-coupon input{
-       margin:1.6rem;
-       padding:0.8rem;
-        font-size:1.4rem;
+       margin:1rem;
+       padding:0.5rem;
+        font-size:0.875rem;
        width:100%;
        border:1px solid #ccc;
        border-radius:4px;
     }.coupon-btn{
         background-color:#c8aa7b;
-        padding:0.7rem ;
+        padding:0.43rem ;
     }
-    .view-cart-total-price{ margin-right:3rem;}
+    .view-cart-total-price{ margin-right:1.875rem;}
     .view-cart-table{
         border :1px solid #ccc;
         display:flex;
@@ -494,7 +494,7 @@ a:hover{
    .view-cart-table-right{
        display:flex;
        align-items:center;
-       padding-left:2rem;
+       padding-left:1.25rem;
    }
     /* END CART VIEW */
 
@@ -512,6 +512,7 @@ a:hover{
     .showProduct-right{ 
         margin-left: 290px;
         width: calc(100% - 280px);
+        padding-right:0.93rem;
     }
     .product-ip-search { 
         position:relative;
@@ -617,12 +618,12 @@ a:hover{
     .filter-button a{padding :6px 26px;}
      
         .price-ammount span{
-           font-size:1.8rem; 
-           padding-right:0.4rem;   
+           font-size:1.125rem; 
+           padding-right:0.25rem;   
            
             }
     .price-ammount{
-        margin-left:0.2rem;
+        margin-left:0.125rem;
         width:100%;
     }
     .product-sidebar{  
@@ -633,8 +634,8 @@ a:hover{
         border-bottom:1px solid #ccc;
         }
     .product-sidebar-image{
-        width:6rem;
-        height:6rem;
+        width:3.75rem;
+        height:3.75rem;
         border-radius:50%;
 
     }
@@ -643,8 +644,8 @@ a:hover{
     }
     /* End Filter Price */
     .showProduct-content-top-selected{
-        width:16rem;
-        padding:0.7rem;
+        width:3.75rem;
+        padding:0.4375rem;
     }
   
     select {
@@ -656,8 +657,8 @@ a:hover{
         border:none;
     }
     .showProduct-content-top-icon{
-        width:6rem;
-        height:6rem;
+        width:3.75rem;
+        height:3.75rem;
     }
     .showProduct-content-rows{
         display: flex;
@@ -679,8 +680,8 @@ a:hover{
     }
     .showProduct-content-pagination{
        margin:3px;
-       width:4rem;
-       height:4rem;
+       width:2.5rem;
+       height:2.5rem;
         border:1px solid #c8aa7b;
     }
     .showProduct-content-pagination a:focus{
