@@ -1,0 +1,135 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+h2,h3{
+    font-weight: bold;
+}
+h4{
+    color: black;
+}
+nav{
+    transition: all 1s;
+}
+.product_text{
+    padding: 50px 0;
+}
+.product_text h3{
+    font-family:PlayfailDisplay;
+    font-weight: bold;
+}
+.product_text h2{
+    font-family:PlayfailDisplay;
+    font-weight: bold;
+    color: #c8aa7b;
+}
+.product_text p{
+    padding-top: 10px;
+    font-family: Open-Sans;
+}
+.product_text ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.list, .product_count{
+    padding: 25px 0;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list a span{
+    font-weight: bold;
+}
+.item-product{
+    border:  1px solid #ccc;
+    margin-bottom: 30px;
+}
+.banner{
+    background: #f6f6f6;
+    min-height: 200px;
+    padding: 50px 0;
+}
+.sp_img_gia{
+    padding-top: 120px;
+}
+.nav-tabs{
+    margin: 50px;
+}
+.product_description_area .nav.nav-tabs {
+    margin: 0px;
+    background: #f6f6f6;
+    text-align: center;
+    display: block;
+    border: none;
+    padding: 10px 0px;
+}
+.product_description_area .nav.nav-tabs li {
+    display: inline-block;
+    margin-right: 7px;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+.tab-content{
+    padding-top: 30px;
+}
+.fa{
+    color: yellow;
+}
+.product_description_area .tab-content .total_rate .box_total {
+    background: #f6f6f6;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.product_description_area .tab-content .total_rate .box_total h4 {
+    color: #71cd14;
+    font-size: 48px;
+    font-weight: bold;
+}
+.items-count{
+    color: #c30;
+}
+.main_btn{
+    color: #fff;
+    font-weight: bold;
+    background: #c30;
+    border-radius: 5px;
+}
+.single-footer-widget h4{
+    color: #fff;
+}
+.icon_btn {
+    margin-right: 10px;
+    background: #f6f6f6;
+    border-radius: 3px;
+    color: #2a2a2a;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    padding: 0px 13px;
+    font-size: 14px;
+}
+.sbl{
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 4px;
+    background: #c8aa7b;
+    font-weight: bold;
+}
+.item-product{
+    border:  1px solid #ccc;
+    margin-bottom: 30px;
+}
+.des-product{
+    text-align: center;
+    margin-top: 20px;
+}
